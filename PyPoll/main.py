@@ -3,7 +3,7 @@ import csv
 
 # create path to csv
 csv_path = ("/Users/jamesread/Downloads/Instructions 5/PyPoll/Resources/election_data.csv")
-totalvotes = 0
+
 # set total number of votes to zero
 totalvotes = 0
 
