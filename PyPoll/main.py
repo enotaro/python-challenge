@@ -54,3 +54,9 @@ elif degettevotes > stockhamvotes and degettevotes > doanevotes:
 # otherwise, Doane wins
 else:
     print("Winner: Raymon Anthony Doane")
+
+    
+# create text file
+txt = open('election.txt', 'w')
+txt.write('Election Results ---------------------- Total Votes: 369711 ---------------------- Charles Casper Stockham: 23.04854332167558% (85213) Diana DeGette: 73.81224794501652% (272892) Raymon Anthony Doane: 3.1392087333079077% (11606)---------------------- Winner: Diana DeGette')
+txt.close()

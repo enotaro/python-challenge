@@ -70,3 +70,8 @@ print("Total: $" + str(totalprofitloss))
 print("Average Change: $" + str(averagechange))
 print("Greatest Increase in Profits: " + greatestincreasemonth + " ($" + str(greatestincrease) + ")")
 print("Greatest Decrease in Profits: " + greatestdecreasemonth + " ($" + str(greatestdecrease) + ")")
+
+# create text file
+text = open('budget.txt', 'w')
+text.write('Financial Analysis -------------------- Total Months: 86 Total: $22564198 Average Change: $-8311.105882352942 Greatest Increase in Profits: Aug-16 ($1862002) Greatest Decrease in Profits: Feb-14 ($-1825558)')
+text.close()
